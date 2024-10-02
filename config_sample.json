@@ -1,0 +1,64 @@
+{
+    "Mortgage Requirement": 
+    {
+        "Mortgage Type" :"Standard Residential",
+        "Loan Purpose" : "Purchase",
+        "Purchase Price" : 250000,
+        "Loan Amount" : 150000,
+        "Loan Term" : 60,
+        "Payment Method" : "Repayment",
+        "Product term" : 60
+    },
+
+    "No of Applicant": 1,
+    "Client Details": 
+    [
+        {
+            "Title": "Mr/Mrs/Mrss",
+            "First Name": "John",
+            "Last Name": "Doe",
+            "Applicant Type": "First Time Buyer",
+            "Date of Birth": "01/11/1978",
+            "Marital Status": "Single",
+            "dependants": [],
+            "expected retirement age" : 70,
+            "Employment Details": 
+            {
+                "Employment Status":"Employed",
+                "Basic Annual Income": 60000,
+                "Net Monthly Income": 5000
+            },
+            "Additional Income (Annual)": 
+            {
+                "Irregular Overtime": 1000,
+                "Regular Bonus": 2000
+            },
+            "Outgoings": 
+            {
+                "Credit Commitments": null,
+                "Household": 
+                {
+                    "Mortgage / Rent": 200,
+                    "Electricity": 300
+                },
+                "Living Costs": 
+                {
+                    "Groceries": "200"
+                },
+                "Lifestyle": null,
+                "Transport": null,
+                "Children": null
+            }
+        }
+    ],
+    "Property Details": 
+    {
+        "Property Location" : "United Kingdom",
+        "Property Type": "House",
+        "Property Age" : 36,
+        "Property Details": 
+        {
+            "Post Code": "NW36SG"
+        }
+    }
+}

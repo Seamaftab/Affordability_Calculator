@@ -1,0 +1,85 @@
+{
+    "Mortgage Requirement": 
+    {
+        "Mortgage Type" :"Buy To Let",
+        "Loan Purpose" : "Purchase",
+        "Purchase Price" : 200000,
+        "Loan Amount" : 150000,
+        "Loan Term" : 360,
+        "Payment Method" : "Repayment",
+        "Product term" : 60,
+        "Buy to Let Details": {
+            "Expected Rental Income Per Month": 700,
+            "Building Use" :  "House of Multiple Occupancy (HMO)",
+            "Number of mortgaged properties owned, excluding own residence": 1,
+            "Applicants are high tax payers?": true,
+            "Trading Limited Company (NOT Set up for BTL purposes only)": true,
+            "Limited Company SPV":true,
+            "Total rental income received for all Properties": 700,
+            "Total Monthly Portfolio Mortgage Payments":50,
+            "Total Borrowing on Properties, excluding own residence":200000,
+            "Total Value of Properties, excluding own residence":300000,
+            "Total Mortgage Payment of properties, excluding own residence": 60000
+       
+        }
+    },
+
+    "No of Applicant": 1,
+    "Client Details": 
+    [
+        {
+            "Title": "Mr",
+            "First Name": "Test",
+            "Last Name": "Test",
+            "Applicant Type": "Existing Mortgage Single",
+            "Date of Birth": "01/01/1990",
+            "Marital Status": "Single",
+            "dependants": [],
+            "expected retirement age" : 70,
+            "Employment Details": 
+            {
+                "Employment Status":"Employed",
+                "Basic Annual Income": 25000,
+                "Net Monthly Income": null
+            },
+            "Additional Income (Annual)": 
+            {
+                "Irregular Overtime": 0,
+                "Regular Bonus": 0
+            },
+            "Outgoings": 
+            {
+                "Credit Commitments": 0,
+                "Household": 
+                {
+                    "Mortgage / Rent": 0,
+                    "Electricity": 0
+                },
+                "Living Costs": 
+                {
+                    "Groceries": 0
+                },
+                "Lifestyle": null,
+                "Transport": null,
+                "Children": null
+            }
+        }
+    ],
+    "Property Details": 
+    {
+        "Property Location" : "Northern Ireland",
+        "Property Type": "House",
+        "Property Age" : 300,
+        "Property Details": 
+        {
+            "Post Code": "BT1 5GS",
+            "Flat/Unit": null,
+            "Building Name": "City Hall",
+            "Building Number" : null,
+            "Street Name": null,
+            "Town/City" : "Belfast",
+            "County": "County Antrim",
+            "Country": "United Kingdom"
+        }
+    }
+}

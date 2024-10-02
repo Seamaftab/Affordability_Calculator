@@ -1,0 +1,263 @@
+{
+    "Mortgage Requirement": 
+    {
+        "Mortgage Type" : 
+        {
+            "type" : "Dropdown",
+            "values": 
+            [
+                "Standard Residential",
+                "Buy To Let",
+                "Right To Buy",
+                "Shared Ownership",
+                "Shared Equity / Help To Buy",
+                "Let To Buy"
+            ]
+        },
+        "Loan Purpose" : 
+        {
+            "type" : "Dropdown",
+            "values": [
+                "Purchase",
+                "Remortgage"
+            ]
+        },
+        "Existing Mortgage Details": 
+        {
+            "Description": "Valid only for Remortgage type",
+            "Current Lender" : 
+            {
+                "type": "Dropdown",
+                "values": [
+                    "Bank of Ireland"
+                ]
+            },
+            "Current Mortgage Payment" : "Number",
+            "current Mortgage Outstanding" : "Number" 
+        },
+        "Purchase Price" : 
+        {
+            "type" : "Number",
+            "Description": "Some time may be referred to property Value"
+        },
+        "Loan Amount" : {
+            "type" : "Number"
+        },
+        "Loan to Value" : {
+            "type" : "Hidden/Auto Calculate",
+            "calculation" : "Loan Ammount / Purchase Price"
+        },
+        "Loan Term" : {
+            "type" : "Number",
+            "description" : "No of months. Convert to year and month where necessary"
+        },
+        "Payment Method" : 
+        {
+            "type" : "Dropdown",
+            "values": [
+                "Repayment",
+                "Interest Only",
+                "Split"
+            ]
+        },
+        "Product term" : {
+            "type" : "Dropdown",
+            "values": [
+                "24(2 years)",
+                "60(5 years)"
+            ] 
+        },
+        "Discounted Purchase Price": {
+            "type": "Number",
+            "description" : "required for Right To buy"
+        },
+        "Share of Value Amount": {
+            "type": "Number",
+            "Description": "Exclusive for Shared Ownership(This one and the SoV(%), (MRTP))"
+        },
+        "Share of Value (%)": "Number",
+        "Monthly Rent to Pay": "Number",
+
+        "Buy to Let Details": {
+            "Description" : "Exclusive only for Buy To Let",
+            "Expected Rental Income Per Month":"Number",
+            "Building Use":{
+                "type": "Dropdown",
+                "values": [
+                    "House of Multiple Occupancy (HMO)"
+                ]
+            },
+            "Number of mortgaged properties owned, excluding own residence": "Number",
+            "Applicants are high tax payers?": "boolean",
+            "Trading Limited Company (NOT Set up for BTL purposes only)": "boolean",
+            "Limited Company SPV":"boolean",
+            "Total rental income received for all Properties":"Number",
+            "Total Monthly Portfolio Mortgage Payments":"Number",
+            "Total Borrowing on Properties, excluding own residence":"Number",
+            "Total Value of Properties, excluding own residence":"Number",
+            "Total Mortgage Payment of properties, excluding own residence":"Number"
+        }        
+    },
+    "No of Applicant": {
+        "type": "Number",
+        "maxValue": 4,
+        "defaultValue": 1
+    },
+    "Client Details": [
+        {
+            "Title": "Mr/Mrs/Mrss",
+            "First Name": "String",
+            "Last Name": "String",
+            "Applicant Type": {
+                "type": "Dropdown",
+                "values": [
+                    "No Current Mortgage",
+                    "Existing Mortgage Single",
+                    "Existing Mortgage Joint",
+                    "First Time Buyer"
+                ]
+            },
+            "Date of Birth": "dd/mm/yyyy",
+            "Marital Status": "Single/Married",
+            "dependants": [{
+                "First Name": "String",
+                "Last Name": "String",
+                "date of birth": "dd/mm/yyyy"
+            }],
+            "Employment Details": 
+            {
+                "Employment Status": {
+                    "type": "Dropdown",
+                    "values": [
+                        "Employed",
+                        "Not Working",
+                        "Retired",
+                        "Self Employed (Sole Trader/Partnership)",
+                        "Self Employed (Ltd Company/Director)"
+                    ]
+                },
+                "Basic Annual Income": "Number",
+                "Net Monthly Income": "Number",
+                "Last Year's Salary": "Number",
+                "Last Year's Dividends": "Number",
+                "Last Year's Net Profits": "Number",
+                "Last Year's Retained Profits": "Number",
+                "Previous Year's Salary": "Number",
+                "Previous Year's Dividends": "Number",
+                "Previous Year's Net Profits": "Number",
+                "Previous Year's Retained Profits": "Number",
+                "3rd Year's Salary": "Number",
+                "3rd Year's Dividends": "Number",
+                "3rd Year's Net Profits": "Number",
+                "3rd Year's Retained Profits": "Number"
+            },
+            "Financial Details": {
+                "Main Current Account Provider": {
+                    "type": "Dropdown",
+                    "values": [
+                        "Bank of Ireland"
+                    ]
+                }
+            },
+            "Additional Income (Annual)": {
+                "Irregular Overtime": "Number",
+                "Regular Bonus": "Number",
+                "Commission": "Number",
+                "Pension": "Number",
+                "DSS Payment": "Number",
+                "Investment Income": "Number",
+                "Working Family Tax Credit": "Number",
+                "Child Tax Credit": "Number",
+                "Child Benefit": "Number",
+                "Guaranteed Bonus": "Number",
+                "Regular Overtime": "Number",
+                "Mortgage Subsidy": "Number",
+                "Car Allowance": "Number",
+                "Large Town Allowance": "Number",
+                "Additional Duty Hours": "Number",
+                "Attendance Allowance": "Number",
+                "Other Income Jobs": "Number",
+                "Maintenance Payments": "Number"
+            },
+            "Outgoings": {
+                "Credit Commitments": {
+                    "Commitment Type": "String/Number",
+                    "Creditor": "String/Number",
+                    "Amount Outstanding": "String/Number",
+                    "Monthly Payment": "String/Number",
+                    "Months Remaining": "String/Number",
+                    "To Be Repaid": "String/Number"
+                },
+                "Household": {
+                    "Mortgage / Rent": "Number",
+                    "Electricity": "Number",
+                    "Council Tax": "Number",
+                    "Television": "Number",
+                    "Insurance": "Number",
+                    "Gas": "Number",
+                    "Water": "Number",
+                    "Ground Rent": "Number",
+                    "Service Charge": "Number",
+                    "Other": "Number"
+                },
+                "Living Costs": {
+                    "Groceries": "Number",
+                    "Clothing": "Number",
+                    "Home Help": "Number",
+                    "Home Phone": "Number",
+                    "Mobile Phone": "Number",
+                    "Loans and/or Hire Purchase": "Number",
+                    "Maintenance Payments": "Number",
+                    "Travel": "Number",
+                    "Laundry / Dry Cleaning": "Number",
+                    "Other": "Number"
+                },
+                "Lifestyle": {
+                    "Entertainment": "Number",
+                    "Holidays": "Number",
+                    "Pension / Insurances": "Number",
+                    "Total Lifestyle": "Number"
+                },
+                "Transport": {
+                    "Car Costs" : "Number"
+                },
+                "Children": {
+                    "Day Care" : "Number",
+                    "Schooling" : "Number"
+                }
+            }
+        }
+    ],
+    "Property Details": {
+        "Property Location" : {
+            "type": "Dropdown",
+            "values": [
+                "England",
+                "Scotland",
+                "Northern Ireland",
+                "Wales"
+            ]
+        },
+        "Property Type": {
+            "type": "Dropdown",
+            "values": [
+                "House",
+                "Flat",
+                "Maisonette",
+                "Bungalow"
+            ]
+        },
+        "Property Age" : "Number in Months",
+        "Property Details": {
+            "Post Code": "String",
+            "Address": "String",
+            "Flat/Unit": "String",
+            "Building Name": "String",
+            "Building Number" : "String",
+            "Street Name": "String",
+            "Town/City" : "String",
+            "County": "String",
+            "Country": "String"
+        }
+    }
+}

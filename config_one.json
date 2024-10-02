@@ -1,0 +1,112 @@
+{
+    "Mortgage Requirement": 
+    {
+        "Mortgage Type" :"Standard Residential",
+        "Loan Purpose" : "Purchase",
+        "Purchase Price" : 200000,
+        "Loan Amount" : 150000,
+        "Loan Term" : 420,
+        "Payment Method" : "Repayment",
+        "Product term" : 60
+    },
+
+    "No of Applicant": 2,
+    "Client Details": 
+    [
+        {
+            "Title": "Mr",
+            "First Name": "Test",
+            "Last Name": "Test",
+            "Applicant Type": "First Time Buyer",
+            "Date of Birth": "01/01/1990",
+            "Marital Status": "Married",
+            "dependants": [{
+                "First Name": "Test",
+                "Last Name": "Test",
+                "date of birth": "01/01/2010"
+            }],
+            "expected retirement age" : 70,
+            "Employment Details": 
+            {
+                "Employment Status":"Employed",
+                "Basic Annual Income": 30000,
+                "Net Monthly Income": 2035.20
+            },
+            "Additional Income (Annual)": 
+            {
+                "Irregular Overtime": 0,
+                "Regular Bonus": 0
+            },
+            "Outgoings": 
+            {
+                "Credit Commitments": 0,
+                "Household": 
+                {
+                    "Mortgage / Rent": 0,
+                    "Electricity": 0
+                },
+                "Living Costs": 
+                {
+                    "Groceries": 0
+                },
+                "Lifestyle": null,
+                "Transport": null,
+                "Children": null
+            }
+        },
+        {
+            "Title": "Mr",
+            "First Name": "Test",
+            "Last Name": "Test",
+            "Applicant Type": "First Time Buyer",
+            "Date of Birth": "01/01/1985",
+            "Marital Status": "Married",
+            "dependants": [],
+            "expected retirement age" : 70,
+            "Employment Details": 
+            {
+                "Employment Status":"Employed",
+                "Basic Annual Income": 35000,
+                "Net Monthly Income": 2318.54
+            },
+            "Additional Income (Annual)": 
+            {
+                "Irregular Overtime": 0,
+                "Regular Bonus": 0
+            },
+            "Outgoings": 
+            {
+                "Credit Commitments": 0,
+                "Household": 
+                {
+                    "Mortgage / Rent": 0,
+                    "Electricity": 0
+                },
+                "Living Costs": 
+                {
+                    "Groceries": 0
+                },
+                "Lifestyle": null,
+                "Transport": null,
+                "Children": null
+            }
+        }
+    ],
+    "Property Details": 
+    {
+        "Property Location" : "Northern Ireland",
+        "Property Type": "House",
+        "Property Age" : 300,
+        "Property Details": 
+        {
+            "Post Code": "BT1 5GS",
+            "Flat/Unit": null,
+            "Building Name": "City Hall",
+            "Building Number" : null,
+            "Street Name": null,
+            "Town/City" : "Belfast",
+            "County": "County Antrim",
+            "Country": "United Kingdom"
+        }
+    }
+}
